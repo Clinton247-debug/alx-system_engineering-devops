@@ -1,0 +1,2 @@
+#!/bin/bash
+result=$((2#$WATER + 2#$STIR)); echo "ibase=bestchol;obase=10;$result" | bc 
